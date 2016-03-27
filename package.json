@@ -1,0 +1,44 @@
+{
+  "name": "nodegresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstiltner/nodegresql.git"
+  },
+  "eslintConfig": {
+    "globals": {
+      "res": true
+    },
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0,
+      "no-undef": 0
+    }
+  },
+  "author": "Jason Stiltner <jasonstiltner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstiltner/nodegresql/issues"
+  },
+  "homepage": "https://github.com/jstiltner/nodegresql#readme",
+  "dependencies": {
+    "pg": "^4.5.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
